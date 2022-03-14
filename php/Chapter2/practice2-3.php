@@ -11,7 +11,12 @@
     $total_atax = $food * (1 + $tax);
     $total = $food * (1 + $tax + $tip);
 
-
+    print "햄버거는 2개";
+    print "</br>";
+    print "초콜릿 밀크쉐이크는 1개";
+    print "</br>";
+    print "콜라는 1개";
+    print "</br>";
     print "세전 총 가격은 $total_btax 입니다.";
     print "</br>";
     print "세후 총 가격은 $total_atax 입니다.";
